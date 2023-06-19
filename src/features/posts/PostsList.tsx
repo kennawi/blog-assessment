@@ -20,7 +20,6 @@ const PostsList = () => {
   const error = useAppSelector(getPostsError);
   const hasNextPage = useAppSelector((state) => state.posts.hasNextPage);
   const pageNum = useAppSelector((state) => state.posts.pageNum);
-  const searchResults = useAppSelector((state) => state.posts.searchResults);
 
   const dispatch = useAppDispatch();
 

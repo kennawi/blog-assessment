@@ -181,7 +181,7 @@ export const selectPostById = (state: RootState, postId: number) =>
   state.posts.posts.find((post) => post.id === postId);
 
 export const selectPostsByUser = createSelector(
-  [selectAllPosts, (state: { posts: PostsState }, userId: number) => userId],
+  [selectAllPosts, (_state: { posts: PostsState }, userId: number) => userId],
   (posts, userId) => posts.filter((post) => post.userId === userId)
 );
 

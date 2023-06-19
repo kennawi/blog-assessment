@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import SearchInput from "../components/Inputs/SearchInput";
 import PostCard from "../features/posts/PostCard";
 import { useAppSelector } from "../app/hooks";

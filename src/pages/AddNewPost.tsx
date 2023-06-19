@@ -1,5 +1,3 @@
-import React, { ChangeEvent, SyntheticEvent, useState } from "react";
-
 import { addNewPost } from "../features/posts/postsSlice";
 import { unwrapResult } from "@reduxjs/toolkit";
 

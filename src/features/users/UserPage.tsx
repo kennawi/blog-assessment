@@ -1,9 +1,5 @@
 import { selectUserById } from "./usersSlice";
-import {
-  fetchPosts,
-  selectAllPosts,
-  selectPostsByUser,
-} from "../posts/postsSlice";
+import { fetchPosts, selectPostsByUser } from "../posts/postsSlice";
 import { Link, useParams } from "react-router-dom";
 import { useAppDispatch, useAppSelector } from "../../app/hooks";
 import { useEffect } from "react";
